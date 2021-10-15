@@ -1,0 +1,212 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+.container {
+  max-width: 1100px;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+p {
+  max-width: 10px 0;
+}
+#navbar {
+  background: #333;
+  color: #fff;
+  overflow: auto;
+}
+#navbar a {
+  color: #fff;
+}
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+#navbar ul li {
+  float: left;
+}
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  background: #444;
+  color: rgb(233, 123, 20);
+}
+#showcase {
+  background: url(https://uploadfile.bizhizu.cn/up/4d/74/26/4d742658b53df98712bcbafd635786bc.jpg.source.jpg)
+    no-repeat center/cover;
+  height: 100%;
+}
+#showcase .showcase-content {
+  color: #fff;
+  text-align: center;
+  padding-top: 170px;
+}
+#showcase .showcase-content h1 {
+  font-size: 60px;
+  line-height: 1.2em;
+}
+#showcase .showcase-content p {
+  font-size: 20px;
+  line-height: 1.7em;
+  padding-bottom: 20px;
+}
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  background: #333;
+  padding: 13px 20px;
+  border: none;
+}
+.btn:hover {
+  color: rgb(241, 95, 10);
+}
+.btn-light {
+  background: #fff;
+  color: #333;
+}
+#home-info {
+  height: 350px;
+}
+#home-info .info-img {
+  float: left;
+  width: 50%;
+  background: url(http://5b0988e595225.cdn.sohucs.com/images/20190709/a831a200aaaf4e07af3aa695db586cd8.jpeg)
+    no-repeat center center/cover;
+  height: 100%;
+}
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  text-align: center;
+  height: 100%;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+.text-primary {
+  color: rgb(221, 243, 19);
+}
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+#home-info .info-content p {
+  padding-bottom: 30px;
+}
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+.box i {
+  margin-bottom: 10px;
+}
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+.bg-primary {
+  background: chartreuse;
+  color: #333;
+}
+
+#about-info .info-left {
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+#about-info .info-right {
+  float: right;
+  width: 50%;
+  height: 100px;
+}
+#about-info .info-right img {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+.py {
+  padding: 10px 0;
+}
+.l-heading {
+  font-size: 40px;
+  padding-top: 20px;
+}
+/* testimonals */
+#testimonials {
+  height: 600px;
+  background: url(https://uploadfile.bizhizu.cn/up/80/cb/ae/80cbaec1efeeb5203514957c55af2bc4.jpg)
+    no-repeat center center/cover;
+}
+#testimonials h2 {
+  color: #fff;
+  text-align: center;
+  padding-top: 80px;
+}
+#testimonials .testimonial img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 20px;
+}
+#testimonials .testimonial {
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  opacity: 0.8;
+}
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+#contact-form input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+#contact-form textarea {
+  height: 200px;
+}
+#contact-form input:fpcus,
+#contact-form textarea:focus {
+  outline: none;
+  border-color: #f7c08a;
+}
+#main-footer {
+  text-align: center;
+  background: #333;
+  color: #fff;
+  margin-bottom: 13px;
+}
